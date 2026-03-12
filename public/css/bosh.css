@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+header{
+  /* background-color: #4d2020; */
+  width: 100%;
+  height: 10%;
+  box-shadow: 0px 5px 5px #0000004e;
+}
+header img{
+  width:17% ;
+  height: auto ;
+  margin-left: 8%;
+  /* margin-bottom: 50px; */
+}
+.bosh{
+  width:20% ;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 2%;
+ 
+}
+.info-empresa{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: -77px;
+    margin-left: 33%;
+
+}
+
+.info-empresa li{
+    margin-bottom: 8px;
+}
+button{
+  width: 10%;
+  height:5% ;
+  position: fixed;
+  top: 5%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1.9px solid black;
+  box-shadow: 4px 4px 7px #8d8d8d;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.elem {
+      background: blueviolet;
+      width: 300px;
+      height: 150px;
+}
+.elem:hover {
+   opacity: 0.5;
+}
